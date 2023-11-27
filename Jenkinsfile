@@ -1,8 +1,6 @@
 pipeline {
     agent {
-        node {
-            label 'docker-agent-angular'
-        }
+        label 'docker-agent-angular'
     }
 
     environment {
