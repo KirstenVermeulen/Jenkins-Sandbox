@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     // Assuming you have Node.js and Angular CLI installed on Jenkins agent
-                    sh 'npm install --production'
+                    sh 'npm install'
                     sh 'ng build --prod'
                 }
             }
